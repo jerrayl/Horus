@@ -1,0 +1,524 @@
+<!DOCTYPE HTML>
+{% autoescape true %}
+<html>
+	<head>
+	<img src="img/taskbar.png" alt="Taskbar" style="width:1890px;height:75px;">
+		<title>HORUS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<meta http-equiv="refresh" content="30">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+		<!--  <link rel="stylesheet" href="css/styles.css?v=1.0">-->
+	</head>
+	<body>
+		
+		<!-- Header -->
+			<section id="header">
+			
+				<header>
+
+					<h1>Anime Festival Asia</h1>
+					<p>Suntec City</p>
+				</header>
+				<footer>
+					<a href="/event" class="button style2 scrolly-middle">Back to Home</a>
+				</footer>
+			</section>
+
+		
+
+		<!-- Feature 1 -->
+		
+			<article id="first" class="container box style1">
+				
+				<div class="inner">
+				
+					<div class="row-fluid">
+						<br>
+						
+						<center><font size="25" padding-top=20px>Overhead Camera Statistics</font></center>
+							<div class = "span1">
+								<h4>Visitor Count per Hour</h4>
+								<canvas id="Visitor Count per Hour"></canvas>
+							</div>
+							
+							<div class = "span2">
+								<h4>Visitor Count per Day</h4>
+									<canvas id="Visitor Count per Day"></canvas>
+							</div>
+							
+							<div class = "span7">
+								<center><h4>Current Visitors</h4></center>
+								<center><canvas id="Current Visitors"></canvas></center>
+							</div>
+  
+							</div>
+							
+							<div class = "span3">
+								<h4>Visitor Traffic per Hour</h4>
+									<canvas id="Visitor Traffic per Hour"></canvas>
+							</div>
+							
+							
+							<block>
+							<center><font size="25">Sensor Statistics</font></center>								
+								<div class = "span4">
+									<h4>Ratings</h4>
+									<canvas id="Ratings"></canvas>
+								</div>
+								
+							<div class = "span8">
+								<h1>Average dwell time of visitors
+									<canvas id="Average Dwell Time"></canvas>
+							</div>
+
+							<div class = "span9">
+								<h1>Average Buzz
+									<canvas id="Average Buzz among Visitors"></canvas>
+							</div>
+							</block>
+							<block>
+								<center><font size="25">Social Media Analytics</font></center>
+								<div class = "span5">
+									<center><h4>Average Sentiment of Twitter Comments</h4></center>
+									<canvas id="Twitter Sentiment"></canvas>
+								</div>
+							
+							
+								
+								<div class = "span6">
+									<center><h4>Average strength of emotions</h4></center>
+									<canvas id="Average strength of emotions"></canvas>
+								</div>
+							</block>
+							<table style="width:100%">
+							
+							
+<br><br><br>
+   <tr>
+  <th>Most positive comments</th>
+  <th>Sentiments</th>
+  </tr>
+  <tr>
+    <td>
+     It was a great climax AFA2016 "Anime Festival Asia Singapore 2016! Singapore will be the 2nd time that many tourist destinations, and delicious meal, is the best! Personal travel or want to go sometime. Thank you Singapore! #AFASG16
+     </td>
+     <td>
+     0.944
+     </td>
+  <tr>
+    <td>
+    HoneyWorks/CHiCO with HoneyWorks "AFASG 2016-Anime Festival Asia Singapore 2016 ' end! In the last year than awesome! Thank you Singapore! #AFASG16
+    </td>
+    <td>
+    0.927
+    </td>
+  <tr>
+    <td>
+    Photo: First time trying to wear this cute things on AFA (Anime Festival Asia) 2013 (at Suntec City Mall) http://tmblr.co/ZLsuVx_0LK7h 
+    </td>
+    <td>
+    0.924
+    </td>
+  <tr>
+    <td>
+    Waifus waifus waifus — attending Anime Festival Asia 2016 - Singapore at Suntec Singapore Convention & Exhibition... http://fb.me/4INQJrPBv 
+    </td>
+    <td>
+    0.919
+    </td>
+  <tr>
+    <td>
+    BanG Dream goods and character cutouts are on display at Anime Festival Asia (AFA) Singapore, be sure to visit if you're in Singapore!
+    </td>
+    <td>
+    0.915
+    </td>
+  <tr>
+    <td>
+    Splurged a bit on otaku goods at Anime Festival Asia 2016 in Singapore:- #AFASG16
+    </td>
+    <td>
+    0.907
+    </td>
+  <tr>
+    <td>
+    -Up close with Domokun at Anime Festival Asia 2015!!- #afa2015 #afa #domokun @ Suntec City Convention… https://instagram.com/p/-oOLbaKybb/ 
+    </td>
+    <td>
+    0.906
+    </td>
+  <tr>
+    <td>
+    Anime Festival Asia Singapore 2016 thanks so much! With the heat of the VIES with the temperature of the local venues. Many thanks for add, really happy stage. Thank you singapore *
+    </td>
+    <td>
+    0.856
+    </td>
+  <tr>
+    <td>
+    I liked a @YouTube video http://youtu.be/IwIgcsSv6No?a  Anime Festival Asia - AFA Singapore 2016 Cosplay Music Video
+    </td>
+    <td>
+    0.854
+    </td>
+  <tr>
+    <td>
+    a glimpse of Suntec City ...Anime Festival Asia (AFA) will be held here! :D Good morning! 早!… http://instagram.com/p/gMLRQ9iqg0/ 
+    </td>
+    <td>
+    0.806
+    </td>
+
+
+<table style="width:100%">
+<tr>
+  <th>Most negative comments</th>
+  <th>Sentiments</th>
+  </tr>
+  <tr>
+    <td>
+    I hate my country now :) (PPAP guy came to Singapore for Anime Festival Asia 2016 and came to sing PPAP)
+    </td>
+    <td>
+    0.606
+    </td>
+  <tr>
+    <td>
+    A good day of photography, except for the crowds and squeezing at Anime Festival Asia at Suntec City.
+    </td>
+    <td>
+    0.494
+    </td>
+  <tr>
+    <td>
+    Swimming in the crowd here at the Anime Festival Asia Singapore in Suntec. #iloveanime #anime… https://www.instagram.com/p/BNTqb0dBZ3i/ 
+    </td>
+    <td>
+    0.489
+    </td>
+  <tr>
+    <td>
+    I wrote a piece on Prizmmy☆ when they visited Anime Festival Asia Singapore 2013. Good memories; sad to see them go.
+    </td>
+    <td>
+    0.455
+    </td>
+  <tr>
+    <td>
+    Hope it works out for you LJ! I hope Anime Festival Asia in Singapore invites you too sometime
+    </td>
+    <td>
+    0.391
+    </td>
+  <tr>
+    <td>
+    At suntec city. Seeing people dressed up for anime festival asia 11. just made my sick and uncomfortable day better! NARUTO FTW!!!
+    </td>
+    <td>
+    0.320
+    </td>
+  <tr>
+    <td>
+    Y'all people should come to Singapore for Anime Festival Asia at the end of the year because that shit has some lit concerts.
+    </td>
+    <td>
+    0.134
+    </td>
+  <tr>
+    <td>
+    -Up close with Domokun at Anime Festival Asia 2015!!- #afa2015 #afa #domokun @ Suntec City Convention… https://instagram.com/p/-oOLbaKybb/ 
+    </td>
+    <td>
+    0.000
+    </td>
+  <tr>
+    <td>
+    Photo: First time trying to wear this cute things on AFA (Anime Festival Asia) 2013 (at Suntec City Mall) http://tmblr.co/ZLsuVx_0LK7h 
+    </td>
+    <td>
+    0.000
+    </td>
+  <tr>
+    <td>
+    a glimpse of Suntec City ...Anime Festival Asia (AFA) will be held here! :D Good morning! 早!… http://instagram.com/p/gMLRQ9iqg0/  
+    </td>
+    <td>
+    0.000
+    </td>
+</table>
+
+					<script type="text/javascript">
+	var ratings = {{data | safe}};
+	var dwell = {{data1 | safe}};
+	var buzz = {{data2 | safe}};
+	Chart.pluginService.register({
+  beforeDraw: function (chart) {
+    if (chart.config.options.elements.center) {
+      //Get ctx from string
+      var ctx = chart.chart.ctx;
+
+      //Get options from the center object in options
+      var centerConfig = chart.config.options.elements.center;
+      var fontStyle = centerConfig.fontStyle || 'Arial';
+      var txt = centerConfig.text;
+      var color = centerConfig.color || '#000';
+      var sidePadding = centerConfig.sidePadding || 20;
+      var sidePaddingCalculated = (sidePadding/100) * (chart.innerRadius * 2)
+      //Start with a base font of 30px
+      ctx.font = "30px " + fontStyle;
+
+      //Get the width of the string and also the width of the element minus 10 to give it 5px side padding
+      var stringWidth = ctx.measureText(txt).width;
+      var elementWidth = (chart.innerRadius * 2) - sidePaddingCalculated;
+
+      // Find out how much the font can grow in width.
+      var widthRatio = elementWidth / stringWidth;
+      var newFontSize = Math.floor(30 * widthRatio);
+      var elementHeight = (chart.innerRadius * 2);
+
+      // Pick a new font size so it will not be larger than the height of label.
+      var fontSizeToUse = Math.min(newFontSize, elementHeight);
+
+      //Set font settings to draw it correctly.
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      var centerX = ((chart.chartArea.left + chart.chartArea.right) / 2);
+      var centerY = ((chart.chartArea.top + chart.chartArea.bottom) / 2);
+      ctx.font = fontSizeToUse+"px " + fontStyle;
+      ctx.fillStyle = color;
+
+      //Draw text in center
+      ctx6.fillText(txt, centerX, centerY);
+      ctx7.fillText(txt, centerX, centerY);
+      ctx8.fillText(txt, centerX, centerY);
+    }
+  }
+});
+
+
+var ctx = document.getElementById('Visitor Count per Hour').getContext('2d');
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ["0900", "1000", "1100", "1200", "1300", "1400", "1500","1600","1700","1800","1900","2000","2100","2200"],
+        datasets: [{
+            label: "Visitor Count Per Hour",
+            backgroundColor: '#ffffcc',
+            borderColor: '#ffffff',
+            data: [0, 471, 689, 543, 521, 613, 412, 389, 673, 513, 528, 327, 216, 78],
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+
+
+var ctx2 = document.getElementById('Visitor Count per Day').getContext('2d');
+var chart2 = new Chart(ctx2, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        datasets: [{
+            label: "Visitor Count Per Day",
+            backgroundColor: '#ccccff',
+            borderColor: '#ffffff',
+            data: [1693, 1583, 1397, 1737, 2153, 2384, 2093],
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+
+var ctx5 = document.getElementById('Visitor Traffic per Hour').getContext('2d');
+var chart5 = new Chart(ctx5, {
+    // The type of chart we want to create
+    type: 'line',
+
+    // The data for our dataset
+    data: {
+        labels: ["0900", "1000", "1100", "1200", "1300", "1400", "1500","1600","1700","1800","1900","2000","2100","2200"],
+        datasets: [{
+            label: "Visitor Traffic per Hour",
+            backgroundColor: '#ffcccc',
+            borderColor: '#ffffff',
+            data: [156, 236, 127, 57, -147, -54, 47, 191, 84 , -120, -110, 54, -176, -345],
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+
+var ctx1 = document.getElementById('Ratings').getContext('2d');
+var chart1 = new Chart(ctx1, {
+    type: 'horizontalBar',
+    // The data for our dataset
+    data: { 
+    	labels: ["A", "B", "C", "D", "E"],
+        datasets: [{
+            label: "Ratings",
+            backgroundColor: '#ccffff',
+            borderColor: '#ccffff',
+            data: ratings,
+        }]
+    },
+    // Configuration options go here
+    options: {
+		scales: {
+			xAxes: [{
+				ticks: {
+					beginAtZero:true
+				}
+			}]
+		}
+	}
+});
+
+var ctx3 = document.getElementById('Twitter Sentiment').getContext('2d');
+var chart3 = new Chart(ctx3, {
+    // The type of chart we want to create
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ["Very Positive>0.9", "Positive>0.4", "Slightly Positive>0.0", "Slightly negative>0.0", "Negative>0.4", "Very Negative>0.9"],
+        datasets: [{
+            label: "Sentiments",
+            backgroundColor: ["#ffffe6" , "#ffe6e6", "#fff2e6", "#e6ffe6", "#ebfafa", "#ececf9"],
+            borderColor: '#e6e6e6',
+            data: [35,58,3,78,26,64],
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+
+var ctx4 = document.getElementById('Average strength of emotions').getContext('2d');
+var chart4 = new Chart(ctx4, {
+    // The type of chart we want to create
+    type: 'pie',
+
+    // The data for our dataset
+    data: {
+        labels: ["Calmness", "Happiness", "Liking", "Agitation", "Anger"],
+        datasets: [{
+            label: "Average strength of emotions",
+            backgroundColor: ["#e6f0ff" , "#e6ffe6", "#ffcccc", "#6c5b7b", "#c06c84"],
+            borderColor: '#ffffff',
+            data: [1.457, 1.793, 2.029, 0.455, 0.017],
+        }]
+    },
+
+    // Configuration options go here
+    options: {}
+});
+
+var ctx8 = document.getElementById('Current Visitors').getContext('2d');
+var chart8 = new Chart(ctx8, {
+    // The type of chart we want to create
+    type: 'doughnut',
+
+    // The data for our dataset
+      data: {
+        labels: [],
+        datasets: [{
+            backgroundColor: "#ffffe6",
+            data: [100],
+        }]
+    },
+    // Configuration options go here
+    options: {  
+    elements: {
+      center: {
+      text: '528',
+      color: '#36A2EB', //Default black
+      fontStyle: 'Helvetica', //Default Arial
+      sidePadding: 15 //Default 20 (as a percentage)
+    }
+  }}
+});
+
+var ctx7 = document.getElementById('Average Buzz among Visitors').getContext('2d');
+var chart7 = new Chart(ctx7, {
+    // The type of chart we want to create
+    type: 'doughnut',
+
+    // The data for our dataset
+      data: {
+        labels: [],
+        datasets: [{
+            backgroundColor: "#d0d0e1",
+            data: [100],
+        }]
+    },
+    // Configuration options go here
+    options: {  
+    elements: {
+      center: {
+      text: buzz + '%',
+      color: '#36A2EB', //Default black
+      fontStyle: 'Helvetica', //Default Arial
+      sidePadding: 15 //Default 20 (as a percentage)
+    }
+  }}
+});
+
+var ctx6 = document.getElementById('Average Dwell Time').getContext('2d');
+var chart6 = new Chart(ctx6, {
+    // The type of chart we want to create
+    type: 'doughnut',
+
+    // The data for our dataset
+      data: {
+        labels: [],
+        datasets: [{
+            backgroundColor: "#e6ffe6",
+            data: [100],
+        }]
+    },
+    // Configuration options go here
+    options: {  
+    elements: {
+      center: {
+      text: dwell + 's',
+      color: '#36A2EB', //Default black
+      fontStyle: 'Helvetica', //Default Arial
+      sidePadding: 15 //Default 20 (as a percentage)
+    }
+  }}
+});
+
+
+</script>
+								
+					</div>
+					
+				</div>
+			</article>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+{% endautoescape %}
